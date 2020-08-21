@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Listas</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="#ulyol">Listas Ordenadas</a>  |
+				<a href="#listdefinicion">Listas de definicion</a>  |
+				<a href="#listdesplegable">Listas desplegables</a>
+			</nav>
+		</header>
+		<main>
+			<h1>Tipos de listas en html5</h1>
+			<section id="ulyol">
+				<h2>Listas</h2>
+				<p><mark>Listas desordenadas</mark></p>
+				<ul>	<!-- square | circle | disc -->
+		            <li>Lunes</li>
+		            <li>Martes</li>
+		            <li>Miercoles</li>
+		            <li>Jueves</li>
+		            <li>viernes</li>
+		            <li>Sabado</li>
+		        </ul>
+
+		        <p><mark>Listas Ordenadas</mark></p>
+				<ol>
+		            <li>Primero</li>
+		            <li>Segundo</li>
+		            <li>Tercero</li>
+		            <li>Cuarto</li>
+		            <li>Quinto</li>
+		        </ol>
+
+		        <p>
+		        	<mark>Listas Ordenadas con numeros romanos</mark>
+		        </p>
+				<ol type="i">   <!-- I o i para numeros romanos, si quiero a,b,c  pongo: type="a" (a o A) -->
+		            <li>Primero</li>
+		            <li>Segundo</li>
+		            <li>Tercero</li>
+		            <li>Cuarto</li>
+		            <li>Quinto</li>
+		        </ol>
+
+
+		        <p>
+		        	<mark>Listas Ordenadas alreves</mark>
+		        </p>
+				<ol reversed="" type="i">   <!-- Admite numeros romanos y numeros comunes. -->
+		            <li>Primero</li>
+		            <li>Segundo</li>
+		            <li>Tercero</li>
+		            <li>Cuarto</li>
+		            <li>Quinto</li>
+		        </ol>
+
+			</section>
+			<hr/><!--  Barra Horizontal -->
+			<section id="listdefinicion">
+				<h2>Listas de Definicion</h2>
+				<dl>	<!-- Etiqueta contenedora de varios terminos -->
+					<dt>HTML</dt>
+					<dd>Es un lenguaje de marcado de hipertexto.</dd>
+					
+					<dt>CSS</dt>
+					<dd>Son hojas de estilo en cascada.</dd>
+
+					<dt>JavaScript</dt>
+					<dd>Es un lenguaje de programación del lado del cliente.</dd>
+
+				</dl>
+			</section>
+				<hr/><!--  Barra Horizontal -->
+			<section id="listdesplegable">
+				<h2>Listas desplegables</h2>
+
+				<details>
+					<summary>Esto es una lista desplegable</summary>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+				</details>
+			</section>
+		</main>
+
+	</body>
+</html>
