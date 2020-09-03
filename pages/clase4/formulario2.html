@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            Clase 4
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Formularios
+            </h1>
+        </header>
+        <section>
+            <form action="https://formspree.io/xzbjlqjr" method="POST" target="_blank">
+                <fieldset>
+                    <legend>
+                        Datos Personales
+                    </legend>
+                    <label>
+                        Nombre
+                        <input name="nombre" required="" type="text"/>
+                    </label>
+                    <label>
+                        Apellido
+                        <input name="apellido" readonly="" type="text"/>
+                    </label>
+                    <label>
+                        Correo electrónico
+                        <input name="email" placeholder="xxx@xxx.com.ar" required="" type="email"/>
+                    </label>
+                    <label>
+                        Contraseña:
+                        <input name="password" type="password"/>
+                    </label>
+                    <br/>
+                    <label>
+                        Femenino
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <br/>
+                    <label>
+                        Masculino
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <br/>
+                    <label>
+                        Otro
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <label>
+                        Opcion 1
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Opcion 2
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Opcion 3
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Cantidad:
+                        <input name="cantidad" type="number"/>
+                    </label>
+                    <label>
+                        Fecha de Nacimiento:
+                        <input name="fecha" type="date"/>
+                    </label>
+                    <label>
+                        Semana:
+                        <input name="semana" type="week"/>
+                    </label>
+                    <br>
+                    <label>
+                        Link:
+                        <input name="link" type="url"/>
+                    </label>
+                    <label>
+                        Seleccionar archivo:
+                        <input name="archivo" type="file"/>
+                    </label>
+                    <label>
+                        <input max="90" min="5" name="rango" type="range"/>
+                    </label>
+                    <label>
+                        Hora:
+                        <input name="hora" type="time"/>
+                    </label>
+                    <label>
+                        Seleccionar color:
+                        <input name="color" type="color"/>
+                    </label>
+                    <input name="submit" type="submit" value="Enviar formulario"/>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>

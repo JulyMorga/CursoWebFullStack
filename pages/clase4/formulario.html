@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Contacto</title>
+</head>
+<body>
+	<header>
+		<h1>Contactame</h1>
+	</header>
+	<main>
+		<section>
+			<form action="https://formspree.io/xzbjlqjr" method="POST" target="_blank" style="max-width: 200px">
+				<label for="nombre">Nombre </label>
+				<input type="text" name="nombre" id="nombre" />	<!-- se cierra así -->
+				<label for="comentario">Comentario </label>
+				<textarea id="comentario" cols="50" rows="5">
+					
+				</textarea>
+				<button type="submit" name="submit" value="Send">Enviar</button>
+				<input type="reset" name="reset/">
+            </form>
+            <form action="https://formspree.io/xzbjlqjr" method="POST" target="_blank" style="max-width: 200px">
+                <label>
+					Seleccionar
+					<select>
+						<option>Opcion1</option>
+						<option>Opcion2</option>
+						<option>Opcion3</option>
+					</select>
+				</label>
+				<br>
+                <fieldset>
+                    <legend>
+                        Datos Personales
+                    </legend>
+                    <label>
+                        Nombre
+                        <input name="nombre" type="text" required="" />
+                    </label>
+                    <label>
+                        Apellido
+                        <input name="apellido" type="text"/>
+                    </label>
+                    <label>
+                    	email
+                    	<input type="email" name="email" placeholder="xxx@xxx.com" required=""/>
+                    </label>
+                    <label>
+                    	Curso
+                    	<input type="text" value="apellido" readonly=""/>
+                    </label>
+                    <label>
+                    	Contraseña
+                    	<input type="password" name="contraseña"/>
+                    </label>
+                    <br>
+                    <label>
+                    	Femenino
+                    	<input type="radio" name="genero"/>
+                    </label>
+                    <br>
+                    <label>
+                    	Masculino
+                    	<input type="radio" name="genero"/>	<!-- Tienen el mismo name para que puedan seleccionar uno o otro -->
+                    </label>
+                    <br>
+                    <label>
+                    	Otro
+                    	<input type="radio" name="genero"/>
+                    </label>
+                    <br><br>
+                    <label>
+        				Link
+                    	<input type="url" name="social_url"/>
+                    </label>
+                    <label>
+        				Seleccione un archivo: 
+                    	<input type="file" name="archivo"/>
+                    </label>
+                    <input type="submit" name="submit"/>
+
+        			<label>  
+                        Otro  
+                        <input name="genero" type="radio"/>
+                    </label>
+                    <label>
+                        Opcion 1
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Opcion 2
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Opcion 3
+                        <input name="opcion" type="checkbox"/>
+                    </label>
+                    <label>
+                        Cantidad:
+                        <input name="cantidad" type="number"/>
+                    </label>
+                    <label>
+                        Fecha de Nacimiento:
+                        <input name="fecha" type="date"/>
+                    </label>
+                    <label>
+                        Semana:
+                        <input name="semana" type="week"/>
+                    </label>
+                    <br>
+                    <label>
+                        Link:
+                        <input name="link" type="url"/>
+                    </label>
+                    <label>
+                        Seleccionar archivo:
+                        <input name="archivo" type="file"/>
+                    </label>
+                    <label>
+                        <input max="90" min="5" name="rango" type="range"/>
+                    </label>
+                    <label>
+                        Hora:
+                        <input name="hora" type="time"/>
+                    </label>
+                    <label>
+                        Seleccionar color:
+                        <input name="color" type="color"/>
+                    </label>
+                    <input name="submit" type="submit" value="Enviar formulario"/>
+
+                </fieldset>
+			</form>
+		</section>
+		
+	</main>
+
+</body>
+</html>

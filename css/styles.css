@@ -1,8 +1,8 @@
-/* fuentes roboto y tipografias de google*/
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&family=Roboto+Slab&display=swap');
-/* Selector Universal: se aplican a TODOS los elemementos del documento.  */
+/* Selector Universal: se aplican a todos los el documento.  */
 * {
+
 }
+
 
 #tabla-actividad {
 	width: 60%;	
@@ -17,22 +17,24 @@ h1 {
 	font-family: 'Roboto Slab', sans serif;
 }
 
+
+/* Selectores de etiqueta */
+h1 {
+	font-family: 'Roboto Slab', sans serif;
+}
 h1, h3, h4 {
 	color:blue;
 }
-/* Selectores de tipo CLASE . */
+/* Selectores de clase */
 .rojo{
 	color: red;
 	font-size: 32px;
 	font-weight: 800;
 }
-
-/* Selectores de tipo ID # */
+/* Selectores de tipo ID */
 #subtitulo{
 	background-color: #346286;
 }
-
-/* Selectores de tipo CLASE # */
 .italic{
 	font-style: italic;
 }
@@ -52,18 +54,3 @@ h4{
 .parrafouno{
 	font-size: 1em;
 }
-
-.parrafouno > strong {
-	color: orange;
-}
-
-.parrafodos i {
-	color: rgb(46, 183, 237);
-}
-
-/*@font-face {
-	font-family: "gothic";
-	font-style: normal;
-	font-weight: normal;
-	src: url("../fonts/gothic.otf");
-}*/

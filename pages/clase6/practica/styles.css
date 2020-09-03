@@ -1,0 +1,29 @@
+* {
+	background-color: rgba(224, 224, 224, 0.5)
+}
+
+#parrafo_copado {
+	font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+label {
+	margin: 20px 20px 20px 20px;
+}
+
+form {
+	text-align: center;
+}
+
+input{
+    background-color: blue;
+    color: white
+    border
+}

@@ -1,0 +1,68 @@
+span img {
+	width: 50px;
+	height: 50px;
+}
+
+header {
+	background-color: #A36BFF;
+}
+
+section {
+	background-color: #FFA36B;
+}
+
+article {
+	background-color: #FF6B7D;
+}
+
+footer {
+	background-color: 
+}
+
+/*Propiedades de texto*/
+h1 {
+	letter-spacing: 1px;	/* Acepta medida relativa, flexibles  y absolutas*/
+	text-align: center;		/*right | left | justify*/
+}
+
+.parrafo1 {
+	word-spacing: 5px;
+}
+
+.parrafo2 {
+	text-transform: uppercase;	/*lowercase | capitalize*/
+}
+
+h3 {
+	text-decoration: overline; /*underline; line-through;  overline;*/
+	text-decoration-color: red;		/* RGB HSL HEXA */
+	text-decoration-style: solid;/* wavy; double;*/
+}
+
+h4 {
+	text-shadow: 10px 20px #FFFF00;		/*Sombra...Primer valor para el costado y segundo para abajo*/
+}
+
+#tabla_color {
+	border: 2px solid black;	/*double | dotted*/
+}
+
+#tabla_color td{
+	border-left: 1px dotted orange;
+	border-right: 1px solid green;
+	border-top: 1px double violet;
+}
+
+button{
+	border-radius: 25px;
+	border-color: 1px solid red;
+	background-color: transparent;
+}
+
+ol li {
+	list-style-type: upper-roman; /*romano:upper-roman | upper-alpha; | lower-alpha   */
+}
+
+ul li {
+	list-style-type:  none;		/*disc | square |	circle;*/
+}

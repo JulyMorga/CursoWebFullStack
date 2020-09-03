@@ -1,0 +1,72 @@
+
+h1 {
+	color: red !important;		/*Se va a aplicar por el important.*/ 
+}
+
+#titulo {
+	color: pink;
+}
+h1 {
+	color: yellow;
+}
+/* Prioridades ID - class - etiquetas */
+
+div p {
+	background-color: black;
+	color:	white;
+}
+* {	
+	margin: 0px;    /*Saco el margen por defecto que hace chrome*/
+	text-align: center;
+	box-sizing: border-box;		/* Se recomienda esta propiedad ponerla acá. Así pongo los valores bien. */
+}
+
+/*-----------Box Model ------------*/
+.margin {
+	background-color: #42B000;
+	width: 200px;
+	height: 180px;
+	margin: 5px;   /*establesco todos los margenes juntos.*/
+	/*top | right | bottom | left*/
+	/* top| right y left | bottom */
+	/* top y bottom | right y left */ 
+}
+
+.padding {
+	background-color: #319FB0;
+	width: 200px;	/* Si esto no lo pongo, me toma todo el ancho. */
+	height: 180px;
+	padding: 20px;	/* la caja crece*/
+}
+
+.border {
+	background-color: #4231B0;
+	width: 200px;	/* Si esto no lo pongo, me toma todo el ancho. */
+	height: 180px;
+	border: 5px solid red;		/* dotted | solid */
+}
+
+.box-model {
+	background-color: #8231B0;
+	color: white;
+	width: 200px;	/* Si esto no lo pongo, me toma todo el ancho. */
+	height: 180px;
+	margin: 30px 20px 30px;
+	padding: 25px;
+	border: 3px solid black;		/* dotted | solid */	
+	border-radius: 50px;
+}
+
+/* ES IGUAL AL DE ARRIBA PERO SE VE MAS CHICO. ES PORQUE TOMA LOS VALORES REALES. */
+.box-sizing {
+	box-sizing: border-box;
+	background-color: #8231B0;
+	color: white;
+	width: 200px;	/* Si esto no lo pongo, me toma todo el ancho. */
+	height: 180px;
+	margin: 30px 20px 30px;
+	padding: 25px;
+	border: 3px solid black;		/* dotted | solid */	
+	border-radius: 50px;
+
+}
