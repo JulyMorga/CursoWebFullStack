@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+	font-family: Montserrat, serif;
+}
+html {
+	font-size: 40px;
+}
+/* ---------- Medidas Absolutas ---------- */
+.cm {
+	font-size: 2cm;
+}
+.mm {
+	font-size: 5mm;	
+}
+.px {
+	font-size: 16px;	
+}
+.pt {
+	font-size: 10pt;	
+}
+.in {
+	font-size: 30pt;	
+}
+.pc {
+	font-size: 1pc;	
+}
+/* ---------- Medidas Absolutas ---------- */
+.em {
+	font-size: 1.1em; /* medida del padre + 10% */
+}
+.padre-em {
+	font-size: 24px;
+}
+.rem {
+	font-size: 1.6rem; /* medida del elemento html + 60% */
+}
+img {
+	width: 30vw;
+	height: 30vh;
+}
+.em {
+	/* Si no pongo nada, el font-size de .em va a ser de 16 porque los padres, abuelos, (section,main,body ) no están definidos. */
+	font-size: 1.1em;  /* toma el valor del padre + 10% ,  20px+10% =22px */
+
+}
+
+.padre-em {			
+	font-size: 20px;	
+}
+
+.rem {		/*root-em*/
+	font-size: 1.3em; 	/*toma el valor del html + porcentaje. 16px+30%*/
+}
+
