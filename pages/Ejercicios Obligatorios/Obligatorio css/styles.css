@@ -1,0 +1,20 @@
+.cuadrado {
+  width: 150px;
+  height: 150px ;
+  margin: 5px;
+  padding-top: 2px;
+}
+.rojo {
+  color: yellow;
+  background-color: red;
+}
+
+.negro {
+  color: white;
+  background-color: black;
+}
+
+.section2 {
+  display: flex;
+  width: 500px;
+}
