@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Boostrap
+        </title>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
+        </link>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+</html>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm border bg-warning">
+                        Una de tres columnas
+                    </div>
+                    <div class="col-sm border bg-warning">
+                        Una de tres columnas
+                    </div>
+                    <div class="col-sm border bg-warning">
+                        Una de tres columnas
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            <p>
+                            </p>
+                        </th>
+                        <th>
+                            <p>
+                                <strong>
+                                    Extra pequeño
+                                </strong>
+                                <strong>
+                                    <br clear="all"/>
+                                </strong>
+                                <strong>
+                                    <576px
+                                </strong>
+                            </p>
+                        </th>
+                        <th>
+                            <p>
+                                <strong>
+                                    Pequeño
+                                </strong>
+                                <strong>
+                                    <br clear="all"/>
+                                </strong>
+                                <strong>
+                                    ≥
+                                </strong>
+                                <strong>
+                                    576px
+                                </strong>
+                            </p>
+                        </th>
+                        <th>
+                            <p>
+                                <strong>
+                                    Medio
+                                </strong>
+                                <strong>
+                                    <br clear="all"/>
+                                </strong>
+                                <strong>
+                                    ≥
+                                </strong>
+                                <strong>
+                                    768px
+                                </strong>
+                            </p>
+                        </th>
+                        <th>
+                            <p>
+                                <strong>
+                                    Grande
+                                </strong>
+                                <strong>
+                                    <br clear="all"/>
+                                </strong>
+                                <strong>
+                                    ≥
+                                </strong>
+                                <strong>
+                                    992px
+                                </strong>
+                            </p>
+                        </th>
+                        <th>
+                            <p>
+                                <strong>
+                                    Extra grande
+                                </strong>
+                                <strong>
+                                    <br clear="all"/>
+                                </strong>
+                                <strong>
+                                    ≥
+                                </strong>
+                                <strong>
+                                    1200px
+                                </strong>
+                            </p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>
+                                    Ancho máximo del contenedor
+                                </strong>
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                Ninguno (automático)
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                540 px
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                720px
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                960 px
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                1140 px
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>
+                                    Prefijo de clase
+                                </strong>
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                .col-xs
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                .col-sm-
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                .col-md-
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                .col-lg-
+                            </p>
+                        </td>
+                        <td>
+                            <p>
+                                .col-xl-
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>
+                                    # de columnas
+                                </strong>
+                            </p>
+                        </td>
+                        <td colspan="5">
+                            <p>
+                                12
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>
+                                    Ancho de canal (márgenes)
+                                </strong>
+                            </p>
+                        </td>
+                        <td colspan="5">
+                            <p>
+                                30px (15px a cada lado de una columna)
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>
+                                    Pueden encastrarse columnas
+                                </strong>
+                            </p>
+                        </td>
+                        <td colspan="5">
+                            <p>
+                                si
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>
+                                    Orden de columnas
+                                </strong>
+                            </p>
+                        </td>
+                        <td colspan="5">
+                            <p>
+                                si
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <h1>
+            Columnas de diseño automático
+        </h1>
+        <section>
+            <div class="container">
+                <h2>
+                    Igual ancho
+                </h2>
+                <div class="row">
+                    <div class="col">
+                        1 de 2
+                    </div>
+                    <div class="col">
+                        2 de 2
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        1 de 3
+                    </div>
+                    <div class="col">
+                        2 de 3
+                    </div>
+                    <div class="col">
+                        3 de 3
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Establecer un ancho de columna
+            </h2>
+            <div class="container">
+                <h2>
+                    Multilínea de igual ancho
+                </h2>
+                <div class="row">
+                    <div class="col">
+                        col
+                    </div>
+                    <div class="col">
+                        col
+                    </div>
+                    <div class="w-100">
+                        espacio
+                    </div>
+                    <div class="col">
+                        col
+                    </div>
+                    <div class="col">
+                        col
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Contenido de ancho variable
+            </h2>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col col-lg-2 border bg-warning">
+                        1 of 3
+                    </div>
+                    <div class="col-md-auto border bg-warning">
+                        Variable width content
+                    </div>
+                    <div class="col col-lg-2 border bg-warning">
+                        3 of 3
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col border bg-warning">
+                        1 of 3
+                    </div>
+                    <div class="col-md-auto border bg-warning">
+                        Variable width content
+                    </div>
+                    <div class="col col-lg-2 border bg-warning">
+                        3 of 3
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Todos los puntos de interrupción
+            </h2>
+            <p>
+                Para cuadrículas que son iguales desde el dispositivo más pequeño al más grande, use las clases .col y .col-*. Especifique una clase numerada cuando necesite una columna de tamaño especial; de lo contrario, no dude en seguir .col.
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col border bg-warning">
+                        col
+                    </div>
+                    <div class="col border bg-warning">
+                        col
+                    </div>
+                    <div class="col border bg-warning">
+                        col
+                    </div>
+                    <div class="col border bg-warning">
+                        col
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-8 border bg-warning">
+                        col-8
+                    </div>
+                    <div class="col-4 border bg-warning">
+                        col-4
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Apilado a horizontal
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 border bg-warning">
+                        col-sm-8
+                    </div>
+                    <div class="col-sm-4 border bg-warning">
+                        col-sm-4
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm border bg-warning">
+                        col-sm
+                    </div>
+                    <div class="col-sm border bg-warning">
+                        col-sm
+                    </div>
+                    <div class="col-sm border bg-warning">
+                        col-sm
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Mezclar y combinar
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 border bg-warning">
+                        .col-md-8
+                    </div>
+                    <div class="col-6 col-md-4 border bg-warning">
+                        .col-6 .col-md-4
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 col-md-4 border bg-warning">
+                        .col-6 .col-md-4
+                    </div>
+                    <div class="col-6 col-md-4 border bg-warning">
+                        .col-6 .col-md-4
+                    </div>
+                    <div class="col-6 col-md-4 border bg-warning">
+                        .col-6 .col-md-4
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 border bg-warning">
+                        .col-6
+                    </div>
+                    <div class="col-6 border bg-warning">
+                        .col-6
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Paddings
+            </h2>
+            <div class="container px-lg-5">
+                <div class="row mx-lg-n5">
+                    <div class="col py-3 px-lg-5 border bg-warning">
+                        Custom column padding
+                    </div>
+                    <div class="col py-3 px-lg-5 border bg-danger">
+                        Custom column padding
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Row-Cols
+            </h2>
+            <p>
+                Utilizar las .row-cols-* clases responsives para establecer rápidamente la cantidad de columnas que mejor representen tu contenido y diseño. Mientras que las .col-* clases normales se aplican a las columnas individuales
+            </p>
+            <div class="container">
+                <div class="row row-cols-2">
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row row-cols-3">
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row row-cols-4">
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row row-cols-4">
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col-6 border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                    <div class="col border bg-warning">
+                        Column
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Bordes y Estilos
+            </h2>
+            <p>
+                Los bordes entre columnas en nuestras clases de cuadrícula predefinidas se pueden eliminar con .no-gutters. Esto elimina la negativa margins de .row y la horizontal padding de todas las columnas hijos inmediatos.
+            </p>
+            <div class="row no-gutters">
+                <div class="col-sm-6 col-md-8 border bg-warning">
+                    .col-sm-6 .col-md-8
+                </div>
+                <div class="col-6 col-md-4 border bg-warning">
+                    .col-6 .col-md-4
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Envoltura de columna
+            </h2>
+            <p>
+                Si se colocan más de 12 columnas en una sola fila, cada grupo de columnas adicionales, como una unidad, se ajustará a una nueva línea.
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 border bg-warning">
+                        .col-9
+                    </div>
+                    <div class="col-4 border bg-warning">
+                        .col-4
+                        <br>
+                            Since 9 + 4 = 13 > 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.
+                        </br>
+                    </div>
+                    <div class="col-6 border bg-warning">
+                        .col-6
+                        <br>
+                            Subsequent columns continue along the new line.
+                        </br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Saltos de columna
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-3 border bg-warning">
+                        .col-6 .col-sm-3
+                    </div>
+                    <div class="col-6 col-sm-3 border bg-warning">
+                        .col-6 .col-sm-3
+                    </div>
+                    <!-- Force next columns to break to new line -->
+                    <div class="w-100 border bg-warning">
+                    </div>
+                    <div class="col-6 col-sm-3 border bg-warning">
+                        .col-6 .col-sm-3
+                    </div>
+                    <div class="col-6 col-sm-3 border bg-warning">
+                        .col-6 .col-sm-3
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-4">
+                        .col-6 .col-sm-4
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        .col-6 .col-sm-4
+                    </div>
+                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="w-100 d-none d-md-block">
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        .col-6 .col-sm-4
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        .col-6 .col-sm-4
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Reordenación
+            </h2>
+            Clases de pedidos
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        First in DOM, no order applied
+                    </div>
+                    <div class="col order-12">
+                        Second in DOM, with a larger order
+                    </div>
+                    <div class="col order-1">
+                        Third in DOM, with an order of 1
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col order-last">
+                        First in DOM, ordered last
+                    </div>
+                    <div class="col">
+                        Second in DOM, unordered
+                    </div>
+                    <div class="col order-first">
+                        Third in DOM, ordered first
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Clases de compensación
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        .col-md-4
+                    </div>
+                    <div class="col-md-4 offset-md-4">
+                        .col-md-4 .offset-md-4
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 offset-md-3">
+                        .col-md-3 .offset-md-3
+                    </div>
+                    <div class="col-md-3 offset-md-3">
+                        .col-md-3 .offset-md-3
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        .col-md-6 .offset-md-3
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 col-md-6">
+                        .col-sm-5 .col-md-6
+                    </div>
+                    <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                        .col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-5 col-lg-6">
+                        .col-sm-6 .col-md-5 .col-lg-6
+                    </div>
+                    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+                        .col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Utilidades de margen
+            </h2>
+            <p>
+                Con el cambio a flexbox en v4, podés usar utilidades de margen, como .mr-auto y forzar a las columnas hermanas a separarse unas de otras.
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        .col-md-4
+                    </div>
+                    <div class="col-md-4 ml-auto">
+                        .col-md-4 .ml-auto
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 ml-md-auto">
+                        .col-md-3 .ml-md-auto
+                    </div>
+                    <div class="col-md-3 ml-md-auto">
+                        .col-md-3 .ml-md-auto
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto mr-auto">
+                        .col-auto .mr-auto
+                    </div>
+                    <div class="col-auto">
+                        .col-auto
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Anidamiento
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-8 col-sm-6">
+                                Level 2: .col-8 .col-sm-6
+                            </div>
+                            <div class="col-4 col-sm-6">
+                                Level 2: .col-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="example-container">
+                <div class="example-row">
+                    <div class="example-content-main">
+                        Main content
+                    </div>
+                    <div class="example-content-secondary">
+                        Secondary content
+                    </div>
+                </div>
+            </div>
+            <span role="button" tabindex="0">
+                Non-button element button
+            </span>
+        </section>
+        <section>
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">
+                            #
+                        </th>
+                        <th scope="col">
+                            First
+                        </th>
+                        <th scope="col">
+                            Last
+                        </th>
+                        <th scope="col">
+                            Handle
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            1
+                        </th>
+                        <td>
+                            Mark
+                        </td>
+                        <td>
+                            Otto
+                        </td>
+                        <td>
+                            @mdo
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            2
+                        </th>
+                        <td>
+                            Jacob
+                        </td>
+                        <td>
+                            Thornton
+                        </td>
+                        <td>
+                            @fat
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            3
+                        </th>
+                        <td>
+                            Larry
+                        </td>
+                        <td>
+                            the Bird
+                        </td>
+                        <td>
+                            @twitter
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">
+                            #
+                        </th>
+                        <th scope="col">
+                            First
+                        </th>
+                        <th scope="col">
+                            Last
+                        </th>
+                        <th scope="col">
+                            Handle
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            1
+                        </th>
+                        <td>
+                            Mark
+                        </td>
+                        <td>
+                            Otto
+                        </td>
+                        <td>
+                            @mdo
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            2
+                        </th>
+                        <td>
+                            Jacob
+                        </td>
+                        <td>
+                            Thornton
+                        </td>
+                        <td>
+                            @fat
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            3
+                        </th>
+                        <td>
+                            Larry
+                        </td>
+                        <td>
+                            the Bird
+                        </td>
+                        <td>
+                            @twitter
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>
+                Filas con rayas
+            </h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            #
+                        </th>
+                        <th scope="col">
+                            First
+                        </th>
+                        <th scope="col">
+                            Last
+                        </th>
+                        <th scope="col">
+                            Handle
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+    </main>
+    <!-- # jquery-3.5.1.slim.min.js -->
+    <script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <!-- #popper.min.js -->
+    <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+    </script>
+    <!-- # bootstrap.min.js -->
+    <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+</body>

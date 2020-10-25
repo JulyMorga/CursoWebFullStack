@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>
+            Boostrap
+        </title>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
+        </link>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+</html>
+<body>
+    <main>
+        <section>
+            <h2>
+                Ejemplo basico
+            </h2>
+            <div aria-label="Basic example" class="btn-group" role="group">
+                <button class="btn btn-secondary" type="button">
+                    Left
+                </button>
+                <button class="btn btn-secondary" type="button">
+                    Middle
+                </button>
+                <button class="btn btn-secondary" type="button">
+                    Right
+                </button>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Barra de herramientas de botones
+            </h2>
+            <div aria-label="Toolbar with button groups" class="btn-toolbar" role="toolbar">
+                <div aria-label="First group" class="btn-group mr-2" role="group">
+                    <button class="btn btn-secondary" type="button">
+                        1
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        2
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        3
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        4
+                    </button>
+                </div>
+                <div aria-label="Second group" class="btn-group mr-2" role="group">
+                    <button class="btn btn-secondary" type="button">
+                        5
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        6
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        7
+                    </button>
+                </div>
+                <div aria-label="Third group" class="btn-group" role="group">
+                    <button class="btn btn-secondary" type="button">
+                        8
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div aria-label="Toolbar with button groups" class="btn-toolbar mb-3" role="toolbar">
+                <div aria-label="First group" class="btn-group mr-2" role="group">
+                    <button class="btn btn-secondary" type="button">
+                        1
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        2
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        3
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        4
+                    </button>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text" id="btnGroupAddon">
+                            @
+                        </div>
+                    </div>
+                    <input aria-describedby="btnGroupAddon" aria-label="Input group example" class="form-control" placeholder="Input group example" type="text">
+                    </input>
+                </div>
+            </div>
+            <div aria-label="Toolbar with button groups" class="btn-toolbar justify-content-between" role="toolbar">
+                <div aria-label="First group" class="btn-group" role="group">
+                    <button class="btn btn-secondary" type="button">
+                        1
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        2
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        3
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        4
+                    </button>
+                </div>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text" id="btnGroupAddon2">
+                            @
+                        </div>
+                    </div>
+                    <input aria-describedby="btnGroupAddon2" aria-label="Input group example" class="form-control" placeholder="Input group example" type="text">
+                    </input>
+                </div>
+            </div>
+        </section>
+        <section>
+            Dimensionamiento
+            <div aria-label="..." class="btn-group btn-group-lg" role="group">
+                ...
+            </div>
+            <div aria-label="..." class="btn-group" role="group">
+                ...
+            </div>
+            <div aria-label="..." class="btn-group btn-group-sm" role="group">
+                ...
+            </div>
+        </section>
+        <section>
+            <h2>
+                Anidamiento (un boton con botones.)
+            </h2>
+            <p>
+                Colocá un .btn-group dentro de otro .btn-groupc
+            </p>
+            <div aria-label="Button group with nested dropdown" class="btn-group" role="group">
+                <button class="btn btn-secondary" type="button">
+                    1
+                </button>
+                <button class="btn btn-secondary" type="button">
+                    2
+                </button>
+                <div class="btn-group" role="group">
+                    <button aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" id="btnGroupDrop1" type="button">
+                        Dropdown
+                    </button>
+                    <div aria-labelledby="btnGroupDrop1" class="dropdown-menu">
+                        <a class="dropdown-item" href="#">
+                            Dropdown link
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            Dropdown link
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Alert
+            </h2>
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+            </div>
+            <div class="alert alert-secondary" role="alert">
+                A simple secondary alert—check it out!
+            </div>
+            <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+            </div>
+            <div class="alert alert-warning" role="alert">
+                A simple warning alert—check it out!
+            </div>
+            <div class="alert alert-info" role="alert">
+                A simple info alert—check it out!
+            </div>
+            <div class="alert alert-light" role="alert">
+                A simple light alert—check it out!
+            </div>
+            <div class="alert alert-dark" role="alert">
+                A simple dark alert—check it out!
+            </div>
+            <div class="alert alert-light" role="alert">
+                A simple light alert with
+                <a class="alert-link" href="#">
+                    an example link
+                </a>
+                . Give it a click if you like.
+            </div>
+            <div class="alert alert-dark" role="alert">
+                A simple dark alert with
+                <a class="alert-link" href="#">
+                    an example link
+                </a>
+                . Give it a click if you like.
+            </div>
+        </section>
+        <section>
+            <h2>
+                Badget
+            </h2>
+            <h1>
+                Encabezado de ejemplo
+                <span class="badge badge-secondary">
+                    Nuevo
+                </span>
+            </h1>
+            <h2>
+                Encabezado de ejemplo
+                <span class="badge badge-secondary">
+                    Nuevo
+                </span>
+            </h2>
+            <h3>
+                Encabezado de ejemplo
+                <span class="badge badge-secondary">
+                    Nuevo
+                </span>
+            </h3>
+            <h4>
+                Encabezado de ejemplo
+                <span class="badge badge-secondary">
+                    Nuevo
+                </span>
+            </h4>
+            <h5>
+                Encabezado de ejemplo
+                <span class="badge badge-secondary">
+                    Nuevo
+                </span>
+            </h5>
+            <h6>
+                Encabezado de ejemplo
+                <span class="badge badge-secondary">
+                    Nuevo
+                </span>
+            </h6>
+        </section>
+        <section>
+            <button class="btn btn-primary" type="button">
+                Notifications
+                <span class="badge badge-light">
+                    4
+                </span>
+            </button>
+        </section>
+        <section>
+            <h2>
+                Variaciones contextuales
+            </h2>
+            <span class="badge badge-primary">
+                Primary
+            </span>
+            <span class="badge badge-secondary">
+                Secondary
+            </span>
+            <span class="badge badge-success">
+                Success
+            </span>
+            <span class="badge badge-danger">
+                Danger
+            </span>
+            <span class="badge badge-warning">
+                Warning
+            </span>
+            <span class="badge badge-info">
+                Info
+            </span>
+            <span class="badge badge-light">
+                Light
+            </span>
+            <span class="badge badge-dark">
+                Dark
+            </span>
+        </section>
+        <section>
+            Badges de pastillas
+            <span class="badge badge-pill badge-primary">
+                Primary
+            </span>
+            <span class="badge badge-pill badge-secondary">
+                Secondary
+            </span>
+            <span class="badge badge-pill badge-success">
+                Success
+            </span>
+            <span class="badge badge-pill badge-danger">
+                Danger
+            </span>
+            <span class="badge badge-pill badge-warning">
+                Warning
+            </span>
+            <span class="badge badge-pill badge-info">
+                Info
+            </span>
+            <span class="badge badge-pill badge-light">
+                Light
+            </span>
+            <span class="badge badge-pill badge-dark">
+                Dark
+            </span>
+        </section>
+        <section>
+            <h2>
+                Enlaces
+            </h2>
+            <a class="badge badge-primary" href="#">
+                Primary
+            </a>
+            <a class="badge badge-secondary" href="#">
+                Secondary
+            </a>
+            <a class="badge badge-success" href="#">
+                Success
+            </a>
+            <a class="badge badge-danger" href="#">
+                Danger
+            </a>
+            <a class="badge badge-warning" href="#">
+                Warning
+            </a>
+            <a class="badge badge-info" href="#">
+                Info
+            </a>
+            <a class="badge badge-light" href="#">
+                Light
+            </a>
+            <a class="badge badge-dark" href="#">
+                Dark
+            </a>
+        </section>
+        <section>
+            <h2>
+                Botones
+            </h2>
+            <p>
+                botones personalizados de Bootstrap para acciones en formularios, cuadros de diálogo y más, con soporte para múltiples tamaños, estados etc..
+            </p>
+            <button class="btn btn-primary" type="button">
+                Primary
+            </button>
+            <button class="btn btn-secondary" type="button">
+                Secondary
+            </button>
+            <button class="btn btn-success" type="button">
+                Success
+            </button>
+            <button class="btn btn-danger" type="button">
+                Danger
+            </button>
+            <button class="btn btn-warning" type="button">
+                Warning
+            </button>
+            <button class="btn btn-info" type="button">
+                Info
+            </button>
+            <button class="btn btn-light" type="button">
+                Light
+            </button>
+            <button class="btn btn-dark" type="button">
+                Dark
+            </button>
+            <button class="btn btn-link" type="button">
+                Link
+            </button>
+        </section>
+        <section>
+            Deshabilitar el ajuste de texto
+            <p>
+                >Si no deseas que el texto del botón se ajuste, podés agregar la clase .text-nowrap al botón. En Sass, podés configurar $btn-white-space: nowrap para deshabilitar el ajuste de texto para cada botón.
+            </p>
+            <p>
+                Cuando se utilizan clases de botones en elementos < a>q comoue se utilizan para activar una funcionalidad en la página (como el contenido que se contrae), en lugar de vincular a nuevas páginas o secciones dentro de la página actual, estos vínculos deben tener una  role="button" para transmitir adecuadamente su propósito a tecnologías de asistencia como lectores de pantalla.
+            </p>
+        </section>
+        <section>
+            <h2>
+                Etiquetas de botón
+            </h2>
+            <p>
+                Las .btn clases están diseñadas para usarse con el elemento < button>. Sin embargo, también podés usar estas clases en elementos < a > o < input> (aunque algunos navegadores pueden aplicar una representación ligeramente diferente)
+            </p>
+            <a class="btn btn-primary" href="#" role="button">
+                Link
+            </a>
+            <button class="btn btn-primary" type="submit">
+                Button
+            </button>
+            <input class="btn btn-primary" type="button" value="Input">
+                <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-primary" type="reset" value="Reset">
+                    </input>
+                </input>
+            </input>
+        </section>
+        <section>
+            <h2>
+                Botones de contorno
+            </h2>
+            <button class="btn btn-outline-primary" type="button">
+                Primary
+            </button>
+            <button class="btn btn-outline-secondary" type="button">
+                Secondary
+            </button>
+            <button class="btn btn-outline-success" type="button">
+                Success
+            </button>
+            <button class="btn btn-outline-danger" type="button">
+                Danger
+            </button>
+            <button class="btn btn-outline-warning" type="button">
+                Warning
+            </button>
+            <button class="btn btn-outline-info" type="button">
+                Info
+            </button>
+            <button class="btn btn-outline-light" type="button">
+                Light
+            </button>
+            <button class="btn btn-outline-dark" type="button">
+                Dark
+            </button>
+            <h2>
+                Modificar tamaños
+            </h2>
+            <button class="btn btn-primary btn-lg" type="button">
+                Large button
+            </button>
+            <button class="btn btn-secondary btn-lg" type="button">
+                Large button
+            </button>
+            <button class="btn btn-primary btn-sm" type="button">
+                Small button
+            </button>
+            <button class="btn btn-secondary btn-sm" type="button">
+                Small button
+            </button>
+            <button class="btn btn-primary btn-lg btn-block" type="button">
+                Block level button
+            </button>
+            <button class="btn btn-secondary btn-lg btn-block" type="button">
+                Block level button
+            </button>
+            <div class="col-6">
+                <button class="btn btn-primary btn-lg btn-block" type="button">
+                    Block dentro div
+                </button>
+                <button class="btn btn-secondary btn-lg btn-block" type="button">
+                    Block dentro div
+                </button>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Estado activo
+            </h2>
+            <a aria-pressed="true" class="btn btn-primary btn-lg active" href="#" role="button">
+                Primary link
+            </a>
+            <a aria-pressed="true" class="btn btn-secondary btn-lg active" href="#" role="button">
+                Link
+            </a>
+            <button class="btn btn-lg btn-primary" disabled="" type="button">
+                Primary button
+            </button>
+            <button class="btn btn-secondary btn-lg" disabled="" type="button">
+                Button
+            </button>
+            <a aria-disabled="true" class="btn btn-primary btn-lg disabled" href="#" role="button" tabindex="-1">
+                Primary link deshabilitado
+            </a>
+            <a aria-disabled="true" class="btn btn-secondary btn-lg disabled" href="#" role="button" tabindex="-1">
+                Link deshabilitado
+            </a>
+            <h2>
+                Advertencia sobre la funcionalidad del enlace
+            </h2>
+            <p>
+                La .disabled clase usa  pointer-events: none para intentar deshabilitar la funcionalidad de enlace de < a>, pero esa propiedad CSS aún no está estandarizada. Además, incluso en los navegadores compatibles pointer-events: none, la navegación con el teclado no se ve afectada, lo que significa que los usuarios videntes del teclado y los usuarios de tecnologías de asistencia aún podrán activar estos enlaces. Entonces, para estar seguro, agregá un  atributo tabindex="-1" en estos enlaces (para evitar que reciban el enfoque del teclado) y usá JavaScript personalizado para deshabilitar su funcionalidad.
+            </p>
+        </section>
+        <section>
+            <h2>
+                Tarjetas
+            </h2>
+            <p>
+                Las tarjetas se crean con la menor cantidad de marcas y estilos posibles, pero aún así logran ofrecer un montón de control y personalización. Construidos con flexbox, ofrecen una alineación fácil y se combinan bien con otros componentes de Bootstrap. No tienen margin por defecto, así que usá las utilidades de espaciado según sea necesario.
+            </p>
+            <div class="card" style="width: 18rem;">
+                <img alt="..." class="card-img-top" src="https://picsum.photos/200">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            Card title
+                        </h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.
+                        </p>
+                        <a class="btn btn-primary" href="#">
+                            Go somewhere
+                        </a>
+                    </div>
+                </img>
+            </div>
+        </section>
+        <section>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Active
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">
+                        Disabled
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>
+                Alineacion horizontal
+            </h2>
+            <h4>
+                justify-content-center
+            </h4>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Active
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">
+                        Disabled
+                    </a>
+                </li>
+            </ul>
+            <h4>
+                justify-content-end
+            </h4>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Active
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">
+                        Disabled
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>
+                Alineacion vertical
+            </h2>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Active
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">
+                        Disabled
+                    </a>
+                </li>
+            </ul>
+            <h2>
+                Pestañas
+            </h2>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Active
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">
+                        Disabled
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>
+                Menu desplegable
+            </h2>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Active
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">
+                            Action
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            Another action
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            Something else here
+                        </a>
+                        <div class="dropdown-divider">
+                        </div>
+                        <a class="dropdown-item" href="#">
+                            Separated link
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Link
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a aria-disabled="true" class="nav-link disabled" href="#" tabindex="-1">
+                        Disabled
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">
+                        Email address
+                    </label>
+                    <input aria-describedby="emailHelp" class="form-control" id="exampleInputEmail1" type="email">
+                        <small class="form-text text-muted" id="emailHelp">
+                            We'll never share your email with anyone else.
+                        </small>
+                    </input>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">
+                        Password
+                    </label>
+                    <input class="form-control" id="exampleInputPassword1" type="password">
+                    </input>
+                </div>
+                <div class="form-group form-check">
+                    <input class="form-check-input" id="exampleCheck1" type="checkbox">
+                        <label class="form-check-label" for="exampleCheck1">
+                            Check me out
+                        </label>
+                    </input>
+                </div>
+                <button class="btn btn-primary" type="submit">
+                    Submit
+                </button>
+                <input class="form-control form-control-lg" placeholder=".form-control-lg" type="text">
+                    <h5>
+                        Diferentes Alturas:
+                    </h5>
+                    <input class="form-control" placeholder="Default input" type="text">
+                        <input class="form-control form-control-sm" placeholder=".form-control-sm" type="text">
+                        </input>
+                    </input>
+                </input>
+                <select class="form-control form-control-lg">
+                    <option>
+                        Large select
+                    </option>
+                </select>
+                <select class="form-control">
+                    <option>
+                        Default select
+                    </option>
+                </select>
+                <select class="form-control form-control-sm">
+                    <option>
+                        Small select
+                    </option>
+                </select>
+                <h5>
+                    Solo lectura
+                </h5>
+                <input class="form-control" placeholder="Readonly input here..." readonly="" type="text">
+                </input>
+            </form>
+        </section>
+        <section>
+            <h5>
+                Texto sin formato de solo lectura
+            </h5>
+            <form>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="staticEmail">
+                        Email
+                    </label>
+                    <div class="col-sm-10">
+                        <input class="form-control-plaintext" id="staticEmail" readonly="" type="text" value="email@example.com">
+                        </input>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label" for="inputPassword">
+                        Password
+                    </label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="inputPassword" type="password">
+                        </input>
+                    </div>
+                </div>
+            </form>
+            <form class="form-inline">
+                <div class="form-group mb-2">
+                    <label class="sr-only" for="staticEmail2">
+                        Email
+                    </label>
+                    <input class="form-control-plaintext" id="staticEmail2" readonly="" type="text" value="email@example.com">
+                    </input>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label class="sr-only" for="inputPassword2">
+                        Password
+                    </label>
+                    <input class="form-control" id="inputPassword2" placeholder="Password" type="password">
+                    </input>
+                </div>
+                <button class="btn btn-primary mb-2" type="submit">
+                    Confirm identity
+                </button>
+            </form>
+            <h5>
+                Rango
+            </h5>
+            <form>
+                <div class="form-group">
+                    <label for="formControlRange">
+                        Example Range input
+                    </label>
+                    <input class="form-control-range" id="formControlRange" type="range">
+                    </input>
+                </div>
+            </form>
+            <h5>
+                Radio
+            </h5>
+            <p>
+                Las casillas de verificación son para seleccionar una o varias opciones en una lista, mientras que las radios son para seleccionar una opción entre muchas.
+            </p>
+            <p>
+                De forma predeterminada, cualquier número de casillas de verificación y radios que sean hermanos inmediatos se apilarán verticalmente y se espaciarán adecuadamente .form-check
+            </p>
+            <div class="form-check">
+                <input class="form-check-input" id="defaultCheck1" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Default checkbox
+                    </label>
+                </input>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" disabled="" id="defaultCheck2" type="checkbox" value="">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Disabled checkbox
+                    </label>
+                </input>
+            </div>
+            <br/>
+            <h5>
+                Predeterminado (apilado)
+            </h5>
+            <div class="form-check">
+                <input checked="" class="form-check-input" id="exampleRadios1" name="exampleRadios" type="radio" value="option1">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Default radio
+                    </label>
+                </input>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" id="exampleRadios2" name="exampleRadios" type="radio" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Second default radio
+                    </label>
+                </input>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" disabled="" id="exampleRadios3" name="exampleRadios" type="radio" value="option3">
+                    <label class="form-check-label" for="exampleRadios3">
+                        Disabled radio
+                    </label>
+                </input>
+            </div>
+            <br/>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="inlineCheckbox1" type="checkbox" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">
+                        1
+                    </label>
+                </input>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" id="inlineCheckbox2" type="checkbox" value="option2">
+                    <label class="form-check-label" for="inlineCheckbox2">
+                        2
+                    </label>
+                </input>
+            </div>
+            <br/>
+            <h5>
+                En línea
+            </h5>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" disabled="" id="inlineCheckbox3" type="checkbox" value="option3">
+                    <label class="form-check-label" for="inlineCheckbox3">
+                        3 (disabled)
+                    </label>
+                </input>
+            </div>
+        </section>
+        <section>
+            <h2>
+                Texto de ayuda
+            </h2>
+            <p>
+                El texto de ayuda a nivel de bloque en formularios se puede crear usando .form-text (anteriormente conocido como .help-block ). El texto de ayuda en línea se puede implementar de manera flexible utilizando cualquier elemento HTML en línea y clases de utilidad como .text-muted.
+            </p>
+            <p>
+                El texto de ayuda debe asociarse explícitamente con el control de formulario relacionado con el uso del aria-describedby atributo. Esto garantizará que las tecnologías de asistencia, como los lectores de pantalla, anuncien este texto de ayuda cuando el usuario se enfoque o ingrese al control.
+            </p>
+            <label for="inputPassword5">
+                Password
+            </label>
+            <input aria-describedby="passwordHelpBlock" class="form-control" id="inputPassword5" type="password">
+                <small class="form-text text-muted" id="passwordHelpBlock">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </small>
+            </input>
+        </section>
+    </main>
+</body>
+<!-- # jquery-3.5.1.slim.min.js -->
+<script crossorigin="anonymous" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+</script>
+<!-- #popper.min.js -->
+<script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js">
+</script>
+<!-- # bootstrap.min.js -->
+<script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+</script>
