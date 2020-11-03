@@ -8,19 +8,19 @@
         </title>
         <style type="text/css">
             .renglon {
-        		display: flex;
-        		justify-content: space-between;
-        		align-items: center;
-        		margin: 0.2rem;
-        	}
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0.2rem;
+            }
 
-        	.div-boton{
-  				 /*display: inline-block;*/
-  				 text-align:center; 
-        	}
-        	form {
-        		width: 20%;
-        	}
+            .div-boton{
+                 /*display: inline-block;*/
+                 text-align:center; 
+            }
+            form {
+                width: 20%;
+            }
         </style>
     </head>
     <body>
@@ -34,7 +34,7 @@
                         <label for="usuario">
                             Usuario
                         </label>
-                        <input id="usuario" placeholder="Ingrese el usuario" required="" type="text">
+                        <input id="usuario" placeholder="Ingrese el usuario" required="" type="email">
                         </input>
                     </div>
                     <div class="renglon">
@@ -56,46 +56,46 @@
         <script type="text/javascript">
             let elementoOn = document.querySelector("#boton");
             function validarUsuario(usuario){
-            	if(!usuario.includes('@'))
-            		return 2;
+                if(!usuario.includes('@'))
+                    return 2;
 
-            	if(usuario.length < 2 ){
-            		return 1;
-            	}
-            	return 0;
+                if(usuario.length < 2 ){
+                    return 1;
+                }
+                return 0;
             }
 
-			function validarClave(clave){
-            	if(clave.length > 6)
-            		return true;
-            	else return false;
+            function validarClave(clave){
+                if(clave.length > 6)
+                    return true;
+                else return false;
             }
 
-			let form = document.querySelector("form");
+            let form = document.querySelector("form");
             form.onsubmit = function(e) {
-				let usuario = document.querySelector("#usuario");
-				let clave = document.querySelector("#clave");
-				let valUsuario = validarUsuario(usuario.value);
-				let boolClave = validarClave(clave.value);
-				if(valUsuario == 0 && boolClave){
-					console.log("Valido ");
-				}else {
-					e.preventDefault();
-					console.log("InValido ")
-					str =""
-					if(valUsuario == 2)
-						str += ("Ingrese un usuario que contenga un arroba.\n")
+                let usuario = document.querySelector("#usuario");
+                let clave = document.querySelector("#clave");
+                let valUsuario = validarUsuario(usuario.value);
+                let boolClave = validarClave(clave.value);
+                if(valUsuario == 0 && boolClave){
+                    console.log("Valido ");
+                }else {
+                    e.preventDefault();
+                    console.log("InValido ")
+                    str =""
+                    if(valUsuario == 2)
+                        str += ("Ingrese un usuario que contenga un arroba.\n")
 
-					if(valUsuario == 1)
-						str += ("Ingrese un usuario que tenga almenos 1 letra.\n")
+                    if(valUsuario == 1)
+                        str += ("Ingrese un usuario que tenga almenos 1 letra.\n")
 
-					if(boolClave == false)
-						str += ("Ingrese una clave con al menos 7 letras.\n")
+                    if(boolClave == false)
+                        str += ("Ingrese una clave con al menos 7 letras.\n")
 
-					window.alert(str);
-					
-				}
-			}
+                    window.alert(str);
+                    
+                }
+            }
         </script>
     </body>
 </html>
