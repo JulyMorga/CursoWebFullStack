@@ -17,13 +17,17 @@
                         <div class="input-group my-5">
                             <input class="form-control" placeholder="Escriba acá la tarea" type="text" v-model="tareaNueva"/>
                             <span class="input-group-btn">
+                                <!-- Se deshabilita si la tarea es vacia. -->
                                 <button :disabled="!tareaNueva.trim()" class="btn btn-outline-dark">
                                     Añadir
                                 </button>
                             </span>
                         </div>
                     </form>
+                    <!-- Pongo la clase 'alert alert-dark' si tarea nueva no es vacio. -->
+                    <!-- Pongo la clase 'alert alert-warning' si tarea nueva es vacio. -->
                     <div :class="{'alert alert-dark' : !tareaNueva.trim(), 'alert alert-warning' : tareaNueva.trim()}">
+                        <!-- Se pone un texto o otro. -->
                         <p v-if="!tareaNueva.trim()">
                             Ingrese el nombre de la tarea
                         </p>
@@ -47,10 +51,12 @@
                         <li class="list-group-item" v-for="tarea in tareas">
                             <label>
                                 <input type="checkbox" v-model="tarea.finalizada"/>
+                                <!-- Pongo la clase 'tachar' si tarea esta finalizada. -->
                                 <span :class="{'tachar':tarea.finalizada} ">
                                     {{tarea.nombre}}
                                 </span>
                             </label>
+                            <!-- Al hacer click llama al metodo eliminar tarea -->
                             <button @click="eliminarTarea(tarea)" class="btn btn-danger">
                                 x
                             </button>
